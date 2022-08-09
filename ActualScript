@@ -1,0 +1,98 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Au-code/DaHoodDocBackEnd/main/GUI"))();
+
+local Gamer = library:CreateSection("Safehouses");
+
+Gamer:Button("Safehouse 1",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-350.15655517578125, 23.956296920776367, -412.1045837402344)}):Play()
+
+end)
+
+Gamer:Button("Safehouse 2",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-422.09869384765625, 24.091983795166016, -412.9225769042969)}):Play()
+
+end)
+
+Gamer:Button("Safehouse 3",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-420.2894287109375, 24.056135177612305, -519.87548828125)}):Play()
+end)
+
+Gamer:Button("Safehouse 4",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-592.0372924804688, 22.68372917175293, -621.0810546875)}):Play()
+
+end)
+
+Gamer:Button("Safehouse 5",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-551.2266235351562, 24.059803009033203, -421.15509033203125)}):Play()
+
+end)
+
+Gamer:Button("Safehouse 6",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-109.10602569580078, 23.873374938964844, -405.718994140625)}):Play()
+end)
+
+Gamer:Button("Safehouse 7",function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(284.70654296875, 23.135160446166992, -109.9196548461914)}):Play()
+end)
+
+local Gamer = library:CreateSection("Places");
+
+Gamer:Button("Hood kicks",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-246.35023498535156, 21.845796585083008, -413.8163757324219)}):Play()
+
+end)
+
+Gamer:Button("Da Bank",function()
+
+
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-361.6344299316406, 21.24999237060547, -300.07958984375)}):Play()
+
+
+end)
+
+Gamer:Button("Da Hood GYM",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-77.91621398925781, 22.700284957885742, -625.1856079101562)}):Play()
+end)
+Gamer:Button("Da Movie Theatre(NOLOCK)",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-1015.3779907226562, 24.600008010864258, -159.3494110107422)}):Play()
+end)
+
+Gamer:Button("Up Hill Gun Store",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(480.51513671875, 48.070491790771484, -623.1339111328125)}):Play()
+end)
+Gamer:Button("Down Hill GunStore",function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-579.8951416015625, 8.314776420593262, -737.3543090820312)}):Play()
+end)
+Gamer:Button("Taco Store (LOCK)",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(569.0838623046875, 51.061397552490234, -483.0828552246094)}):Play()
+end)
+Gamer:Button("Hidden Bar (ISOLATED)",function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-260.9220886230469, 23.526216506958008, -484.7873840332031)}):Play()
+end)
+Gamer:Button("Food Store(NOLOCK)",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(295.0362854003906, 49.28265380859375, -615.0059814453125)}):Play()
+end)
+Gamer:Button("High School Cafeteria(NOLOCK)",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-603.02294921875, 21.87499237060547, 283.5345458984375)}):Play()
+end)
+Gamer:Button("Gas Station (NOLOCK)",function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(600.5769653320312, 49.00003433227539, -251.9735107421875)}):Play()
+end)
+library:Ready();
