@@ -210,11 +210,11 @@ local function initLibrary()
                         Name = "Title";
                         BackgroundTransparency = 1;
                         Position = UDim2.new(0, 10, 0.5, -10);
-                        Size = UDim2.new(0, 70, 0, 24); 
+                        Size = UDim2.new(0, 70, 0, 24);
                         TextColor3 = Color3.fromRGB(255, 255, 255);
-                        Text = "Piracy's DH GUI";
+                        Text = "Da Hood TP";
                         Font = "GothamSemibold";
-                        TextSize 11;
+                        TextSize = 11;
                         library:Create("UIGradient", {
                             Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(39, 133, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(210, 74, 255))}
                         });
