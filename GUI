@@ -214,7 +214,7 @@ local function initLibrary()
                         TextColor3 = Color3.fromRGB(255, 255, 255);
                         Text = "Piracy's DH GUI";
                         Font = "GothamSemibold";
-                        TextSize 9;
+                        TextSize 11;
                         library:Create("UIGradient", {
                             Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(39, 133, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(210, 74, 255))}
                         });
