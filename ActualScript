@@ -54,7 +54,10 @@ local Gamer = library:CreateSection("Places");
 Gamer:Button("Hood kicks",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-246.35023498535156, 21.845796585083008, -413.8163757324219)}):Play()
-
+end)
+Gamer:Button("Car Wash Near Basketball place",function()
+    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-820, 22, -616)}):Play()
 end)
 Gamer:Button("Fire Department",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
