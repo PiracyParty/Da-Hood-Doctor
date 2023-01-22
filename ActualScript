@@ -50,7 +50,10 @@ tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.Humanoid
 end)
 
 local Gamer = library:CreateSection("Places");
-
+Gamer:Button("Secret Admin Room + RPG Buy",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-498, -15, -888)}):Play()
+end)
 Gamer:Button("Hood kicks",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-246.35023498535156, 21.845796585083008, -413.8163757324219)}):Play()
