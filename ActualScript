@@ -168,10 +168,13 @@ tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-260.9220886230469, 23.526216506958008, -484.7873840332031)}):Play()
 end)
 
-Gamer:Button("Food Store",function()
+Gamer:Button("Up Hill Food Store",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(295.0362854003906, 49.28265380859375, -615.0059814453125)}):Play()
 end)
+Gamer:Button("Down Hill Food Store",function()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-333, 24, -300)}):Play()
 
 Gamer:Button("Taser Place",function()
     tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
