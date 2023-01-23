@@ -5,13 +5,11 @@ local Gamer = library:CreateSection("Safehouses");
 Gamer:Button("Safehouse 1",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-350.15655517578125, 23.956296920776367, -412.1045837402344)}):Play()
-
 end)
 
 Gamer:Button("Safehouse 2",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-422.09869384765625, 24.091983795166016, -412.9225769042969)}):Play()
-
 end)
 
 Gamer:Button("Safehouse 3",function()
@@ -28,7 +26,6 @@ end)
 Gamer:Button("Safehouse 5",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-551.2266235351562, 24.059803009033203, -421.15509033203125)}):Play()
-
 end)
 
 Gamer:Button("Safehouse 6",function()
