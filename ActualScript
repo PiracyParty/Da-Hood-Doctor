@@ -113,9 +113,7 @@ tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, En
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(376.93914794921875, 48.50136947631836, -343.0770263671875)}):Play()
 end)
 
-local Gamer = library:CreateSection("1v1 Spots")
-
-
+local Gamer = library:CreateSection("1v1 Spots");
 Gamer:Button("Revolver Purchase Area",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-637.8507690429688, 21.751373291015625, -140.5386505126953)}):Play()
@@ -127,7 +125,6 @@ tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.Humanoid
 end)
 
 local Gamer = library:CreateSection("Stores")
-
 Gamer:Button("Da Furniture Store",function()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.1, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-487.7236633300781, 21.953092575073242, -92.18724060058594)}):Play()
@@ -190,7 +187,7 @@ Gamer:Button("Phone Store",function()
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-106.2215347290039, 21.908939361572266, -869.8880004882812)}):Play()
 end)
 
-local Gamer = library:CreateSection("Misc")
+local Gamer = library:CreateSection("Misc");
 Gamer:Button("Free Knives and Lockpicks",function()
 for i,v in pairs(workspace:GetDescendants()) do
 if v:IsA("TouchTransmitter") then
@@ -201,6 +198,10 @@ end)
 
 Gamer:Button("Unnamed ESP",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
+end)
+
+Gamer:Button("Infinite Yield",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 end)
 library:Ready();
