@@ -200,23 +200,5 @@ Gamer:Button("Phone Store",function()
     tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0, Enum.EasingStyle.Linear)
 tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-106.2215347290039, 21.908939361572266, -869.8880004882812)}):Play()
 end)
-
-local Gamer = library:CreateSection("Misc");
-
-Gamer:Button("Free Knives and Lockpicks",function()
-for i,v in pairs(workspace:GetDescendants()) do
-if v:IsA("TouchTransmitter") then
-firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0)
-end
-end
-end)
-
-Gamer:Button("Unnamed ESP",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
-end)
-
-Gamer:Button("Infinite Yield",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-end)
 end)
 library:Ready();
