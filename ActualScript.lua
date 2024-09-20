@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiracyParty/Da-Hood-Doctor/main/GUI"))();
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiracyParty/Da-Hood-Doctor/main/GUI.lua"))();
 
 local Gamer = library:CreateSection("Safehouses");
 
